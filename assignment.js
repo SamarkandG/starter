@@ -1,11 +1,11 @@
-let country = "France";
-let continent = "Europe";
+const country = "France";
+const continent = "Europe";
 let population = "65 millions";
 
 console.log(country, continent, population);
 
-let isIsland = false;
-let language = "French";
+const isIsland = false;
+const language = "French";
 
 console.log(isIsland);
 console.log(population);

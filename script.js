@@ -27,3 +27,9 @@ console.log(firstName);
 // year = 1995;
 // console.log(year);
 // console.log(typeof year);
+
+// let age = 25;
+// age = 26;
+
+// const birthYear = 1995;
+// birthYear = 1998;
