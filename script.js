@@ -71,3 +71,46 @@ console.log(firstName);
 
 // const averageAge = (ageSamarkand + ageSimon) / 2;
 // console.log(ageSamarkand, ageSimon, averageAge);
+
+// const firstName = "Samarkand";
+// const job = "web developer";
+// const birthYear = 1995;
+// const year = 2022;
+
+// const sam =
+//   "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + " !";
+
+// console.log(sam);
+
+// const samNew = `I'm ${firstName}, a ${year - birthYear} years old ${job} !`;
+// console.log(samNew);
+
+// console.log("String with \n\
+// multiple \n\
+// Lines");
+
+// console.log(`ezfez
+// fefez
+// fezffz`);
+
+// const age = 15;
+
+// if (age >= 18) {
+//   console.log("Sycile can start driving license !🚗 ");
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(
+//     `Sycile cannot start her driving license yet ... 😔 But will be able to in ${yearsLeft} years ! 🙃 Hang in there !`
+//   );
+// }
+
+// const birthYear = 1995;
+// let century;
+
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+
+// console.log(century);
