@@ -34,10 +34,6 @@ console.log(firstName);
 // const birthYear = 1995;
 // birthYear = 1998;
 
-// const now = 2030;
-// const ageSamarkand = now - 1995;
-// const ageSimon = now - 2002;
-
 // console.log(ageSamarkand, ageSimon);
 // console.log(ageSamarkand * 2, ageSamarkand / 10, 2 ** 3);
 // // 2**3 means 2 to the power of 3 = 2 * 2 * 2
@@ -62,3 +58,16 @@ console.log(firstName);
 // const isFullAge = ageSimon >= 18;
 
 // console.log;
+
+// const now = 2030;
+// const ageSamarkand = now - 1995;
+// const ageSimon = now - 2002;
+
+// console.log(now - 1995 > now - 2002);
+
+// let x, y;
+// x = y = 25 - 10 - 5; // x=10 et y=10
+// console.log(x, y);
+
+// const averageAge = (ageSamarkand + ageSimon) / 2;
+// console.log(ageSamarkand, ageSimon, averageAge);
