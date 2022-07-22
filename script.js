@@ -33,3 +33,32 @@ console.log(firstName);
 
 // const birthYear = 1995;
 // birthYear = 1998;
+
+// const now = 2030;
+// const ageSamarkand = now - 1995;
+// const ageSimon = now - 2002;
+
+// console.log(ageSamarkand, ageSimon);
+// console.log(ageSamarkand * 2, ageSamarkand / 10, 2 ** 3);
+// // 2**3 means 2 to the power of 3 = 2 * 2 * 2
+
+// const firstName = "Samarkand";
+// const lastName = "Guinot";
+
+// console.log(firstName + " " + lastName);
+
+// let x = 10 + 5; //15
+// x += 10; // x (valeur d'au dessus) = x + 10
+// x *= 4; // x (valeur d'au dessus) = x * 4
+// x++; // ajoute 1 à la valeur d'au dessus
+// x--; // enlève 1 à la valeur d'au dessus
+// console.log(x);
+
+// // Comparaison operators pour les boleans !
+
+// console.log(ageSamarkand > ageSimon); // >,<,>=,<=
+// console.log(ageSimon >= 18);
+
+// const isFullAge = ageSimon >= 18;
+
+// console.log;
