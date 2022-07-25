@@ -1,11 +1,11 @@
-const country = "France";
-const continent = "Europe";
-let population = 65;
+// const country = "France";
+// const continent = "Europe";
+// let population = 65;
 
-// console.log(country, continent, population);
+// // console.log(country, continent, population);
 
-const isIsland = false;
-const language = "French";
+// const isIsland = false;
+// const language = "French";
 
 // console.log(isIsland);
 // console.log(population);
@@ -54,3 +54,15 @@ DEUXIEME SOLUTION*/
 //   average = population - 33;
 //   console.log(`${country}'s population is ${average} million below average.`);
 // }
+
+const numNeighbours = Number(
+  prompt("How many neighbour countries does your country have ?")
+);
+
+if (numNeighbours === 1) {
+  console.log("Only 1 border !");
+} else if (numNeighbours === 0) {
+  console.log("No borders !");
+} else {
+  console.log("More than 1 border !");
+}

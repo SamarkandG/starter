@@ -114,3 +114,55 @@ console.log(firstName);
 // }
 
 // console.log(century);
+
+// CONVERSION
+
+// const inputYear = "1991";
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
+
+// console.log(String(23), 23);
+
+// COERCION
+// JS anticipe et comprends qu'il dois mettre 23 en string et pas en nombre dans cette string !
+// Avec une opération avec des soustractions même si les chiffres sont en string,il va les mettre en nombre !
+
+// console.log("I am " + 23 + " years old");
+
+// Ca affiche "false" lorsque l'on met 0 ou que l'on assigne aucune value(undefined) dans une variable et dans les conditions IF/ELSE, la console essaie de transformer en bolean la request donc forcément ça affiche faux et donc 0 = no money !
+
+// const money = 0;
+// if (money) {
+//   console.log("MONEYYYY");
+// } else {
+//   console.log("NO MONEYYY :')");
+// }
+
+// let height;
+
+// if (height) {
+//   console.log("yay");
+// } else {
+//   console.log("nooooo");
+// }
+
+// const age = "18";
+// if (age === 18) console.log("You just became an adult !(strict)");
+// if (age == 18) console.log("You just became an adult !(loose)");
+
+// Get value from webpage
+
+// const favorite = Number(prompt("What's your favorite number?"));
+// console.log(favorite);
+
+// if (favorite === 18) {
+//   console.log("COOL!");
+// } else if (favorite === 8) {
+//   console.log("8 is also cool !");
+// } else if (favorite === 4) {
+//   console.log("4 is also cool !");
+// } else {
+//   console.log("Not the right number :'(");
+// }
+
+// if (favorite !== 18) console.log("Why not 18 ?");
