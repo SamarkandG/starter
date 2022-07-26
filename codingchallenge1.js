@@ -45,3 +45,38 @@
 // } else {
 //   console.log(`John's BMI (${bmiJohn}) is higher than Mark's (${bmiMark}).`);
 // }
+
+// CODING CHALLENGE #3
+
+const averageScoreDolphins = (97 + 112 + 101) / 3;
+const averageScoreKoalas = (109 + 95 + 123) / 3;
+
+// console.log(averageScoreDolphins, averageScoreKoalas);
+
+// if (averageScoreDolphins > averageScoreKoalas) {
+//   console.log("Team Dolphins WINS !");
+// } else if ((averageScoreDolphins = averageScoreKoalas)) {
+//   console.log(" DRAW !");
+// } else {
+//   console.log("Team Koalas WINS !");
+// }
+
+if (averageScoreDolphins < 100 && averageScoreKoalas < 100) {
+  console.log("BOTH LOSERS");
+} else if (
+  averageScoreDolphins > averageScoreKoalas &&
+  averageScoreDolphins >= 100
+) {
+  console.log("Team Dolphins WINS !");
+} else if (
+  averageScoreDolphins >= 100 &&
+  averageScoreKoalas >= 100 &&
+  averageScoreDolphins === averageScoreKoalas
+) {
+  console.log(" DRAW !");
+} else if (
+  averageScoreKoalas > averageScoreDolphins &&
+  averageScoreKoalas >= 100
+) {
+  console.log("Team Koalas WINS !");
+}
