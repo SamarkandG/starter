@@ -166,3 +166,21 @@ console.log(firstName);
 // }
 
 // if (favorite !== 18) console.log("Why not 18 ?");
+
+//Est ce qu'elle est en capacité de conduire ? Elle dois avoir le permis, une bonne vue et ne PAS être fatiguée !
+
+// const hasDrivingLicense = true; //A
+// const hasGoodVision = true; //B
+
+// console.log(hasDrivingLicense && hasGoodVision);
+// console.log(hasDrivingLicense || hasGoodVision);
+// console.log(!hasDrivingLicense);
+
+// const isTired = true; //C
+// console.log(hasDrivingLicense && hasGoodVision && isTired);
+
+// if (hasDrivingLicense && hasGoodVision && !isTired) {
+//   console.log("She's able to drive");
+// } else {
+//   console.log("Someone else should drive !");
+// }

@@ -55,14 +55,27 @@ DEUXIEME SOLUTION*/
 //   console.log(`${country}'s population is ${average} million below average.`);
 // }
 
-const numNeighbours = Number(
-  prompt("How many neighbour countries does your country have ?")
-);
+// const numNeighbours = Number(
+//   prompt("How many neighbour countries does your country have ?")
+// );
 
-if (numNeighbours === 1) {
-  console.log("Only 1 border !");
-} else if (numNeighbours === 0) {
-  console.log("No borders !");
-} else {
-  console.log("More than 1 border !");
-}
+// if (numNeighbours === 1) {
+//   console.log("Only 1 border !");
+// } else if (numNeighbours === 0) {
+//   console.log("No borders !");
+// } else {
+//   console.log("More than 1 border !");
+// }
+
+// const country = "France";
+// const continent = "Europe";
+// let population = 65;
+// const isIsland = false;
+// const language = "French";
+// const description = `${country} is in ${continent}, and its ${population} million people speak ${language} ! `;
+
+// if (population <= 50 && !isIsland && language === "French") {
+//   console.log("Let's go live there ! It's perfect !");
+// } else {
+//   console.log("TRY AGAIN ! WRONG CHOICE !");
+// }
