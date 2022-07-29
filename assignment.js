@@ -69,13 +69,34 @@ DEUXIEME SOLUTION*/
 
 // const country = "France";
 // const continent = "Europe";
+// const language = "French";
 // let population = 65;
 // const isIsland = false;
-// const language = "French";
 // const description = `${country} is in ${continent}, and its ${population} million people speak ${language} ! `;
 
 // if (population <= 50 && !isIsland && language === "French") {
 //   console.log("Let's go live there ! It's perfect !");
 // } else {
 //   console.log("TRY AGAIN ! WRONG CHOICE !");
+// }
+
+// switch (language) {
+//   case "Chinese":
+//   case "Mandarin":
+//     console.log("MOST number of native speakers!");
+//     break;
+//   case "Spanish":
+//     console.log("2nd place in number of native speakers !");
+//     break;
+//   case "English":
+//     console.log("3rd place");
+//     break;
+//   case "Hindi":
+//     console.log("Number 4");
+//     break;
+//   case "Arabic":
+//     console.log("5th most spoken language");
+//     break;
+//   default:
+//     console.log("Great language too :D");
 // }
