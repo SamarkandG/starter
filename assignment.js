@@ -67,10 +67,10 @@ DEUXIEME SOLUTION*/
 //   console.log("More than 1 border !");
 // }
 
-// const country = "France";
+const country = "France";
 // const continent = "Europe";
 // const language = "French";
-// let population = 65;
+let population = 65;
 // const isIsland = false;
 // const description = `${country} is in ${continent}, and its ${population} million people speak ${language} ! `;
 
@@ -100,3 +100,11 @@ DEUXIEME SOLUTION*/
 //   default:
 //     console.log("Great language too :D");
 // }
+
+// console.log(
+//   `${
+//     population >= 33
+//       ? "France's population is above average"
+//       : "France's population is below average."
+//   }`
+// );

@@ -185,22 +185,22 @@ console.log(firstName);
 //   console.log("Someone else should drive !");
 // }
 
-const day = "monday";
+// const day = "monday";
 
-if (day === "monday") {
-  console.log("Plan course structure");
-  console.log("Go to coding meetup");
-} else if (day === "tuesday") {
-  console.log("Prepare theory videos");
-} else if (day === "wednesday" || day === "thursday") {
-  console.log("Write code examples");
-} else if (day === "friday") {
-  console.log("Record videos");
-} else if (day === "saturday" || day === "sunday") {
-  console.log("Enjoy the week-end !");
-} else {
-  console.log("Not a valid day :(");
-}
+// if (day === "monday") {
+//   console.log("Plan course structure");
+//   console.log("Go to coding meetup");
+// } else if (day === "tuesday") {
+//   console.log("Prepare theory videos");
+// } else if (day === "wednesday" || day === "thursday") {
+//   console.log("Write code examples");
+// } else if (day === "friday") {
+//   console.log("Record videos");
+// } else if (day === "saturday" || day === "sunday") {
+//   console.log("Enjoy the week-end !");
+// } else {
+//   console.log("Not a valid day :(");
+// }
 
 // switch (day) {
 //   case "monday":
@@ -224,3 +224,11 @@ if (day === "monday") {
 //   default:
 //     console.log("Not a valid day !");
 // }
+
+// const age = 18;
+
+// const drink = age >= 18 ? "Wine 🍷" : "Water 💧";
+
+// console.log(drink);
+
+// console.log(`I like to drink ${age >= 18 ? "Wine 🍷" : "Water 💧"}`);
