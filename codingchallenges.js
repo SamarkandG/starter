@@ -80,3 +80,22 @@
 // ) {
 //   console.log("Team Koalas WINS !");
 // }
+
+// STEVEN'S TIP CALCULATOR
+
+// if (bills >= 50 || bills >= 300) {
+//   const calcTip = bills * 0.15;
+//   console.log(calcTip);
+//   console.log("You tip 15%");
+// } else {
+//   const calcTip = bills * 0.2;
+//   console.log(calcTip);
+//   console.log("You tip 20%");
+// }
+
+const bill = 40;
+
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+console.log(
+  `The bill is ${bill}$, you tipped ${tip}$, your total is ${bill + tip}$ 🤑 `
+);
